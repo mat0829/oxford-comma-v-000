@@ -2,7 +2,7 @@ def oxford_comma(array)
   if array. length == 2 
     array.join(" and ")
   elsif array.length == 3
-    array.join(", ")<<d
+    array.join(", ")<<"d"
   elsif array.length == 1
     array.join
     
