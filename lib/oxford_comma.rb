@@ -1,4 +1,4 @@
 def oxford_comma(array)
-  elements = array.join(" and ")
-  puts elements.length
+  if array.length >= 3
+    array.split(" and ")
 end
